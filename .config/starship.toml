@@ -1,0 +1,22 @@
+add_newline = true
+format = "$directory$git_branch $git_status$line_break$character"
+
+[character]
+error_symbol = "[x>](bold red)"
+success_symbol = "[>](bold green)"
+vimcmd_symbol = "[v](bold blue)"
+
+[git_branch]
+format = "[$symbol$branch(:$remote_branch)]($style)"
+
+[hostname]
+format = "[$hostname]($style)"
+ssh_only = false
+style = "bold purple"
+
+[line_break]
+disabled = false
+
+[username]
+format = "[$user]($style)"
+show_always = true
