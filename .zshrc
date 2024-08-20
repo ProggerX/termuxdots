@@ -1,5 +1,6 @@
 alias c=clear
-alias l=ls -a
+alias ls=lsd
+alias l="ls -aF"
 alias vim=nvim
 alias o=nvim
 alias g=git
