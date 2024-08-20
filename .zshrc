@@ -7,6 +7,8 @@ alias g=git
 alias q=exit
 alias lg=lazygit
 
+export PATH="$HOME/go/bin:$PATH"
+
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
